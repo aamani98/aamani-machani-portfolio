@@ -1,4 +1,3 @@
-import Contact from '@/components/Contact';
 import About from '@/components/About'
 import Intro from '@/components/Intro';
 import Skills from '@/components/Skills';
@@ -10,9 +9,8 @@ const Home = () => {
       <Intro />
       <About />
       <Skills/>
-      <Experience />
       <Projects />
-      <Contact />      
+      <Experience />    
     </main>
   )
 }
