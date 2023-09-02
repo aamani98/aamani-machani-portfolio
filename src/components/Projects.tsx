@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image';
 import corpComment from '../../public/corpcomment.png';
 import projects from '@/lib/projects';

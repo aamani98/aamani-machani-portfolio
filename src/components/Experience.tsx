@@ -12,11 +12,11 @@ const Experience = () => {
                         </div>
                         <div className="relative bg-white border-2 rounded-lg border-subtle lg:ml-0 ml-[80px] lg:w-[44%] space-y-2 text-left py-3 px-6 ">
                             <div className="absolute top-[16px] right-[100%] lg:group-even:right-[100%]  lg:group-odd:rotate-180 lg:group-odd:left-[100%] border-transparent border-[10px] border-r-[10px] border-r-subtle"></div>
-                            <h2>{experience.title}</h2>
-                            <p>{experience.organization}</p>
-                            <p>{experience.location}</p>
-                            <p>{experience.description}</p>
-                            <p className="lg:absolute lg:w-[100%] lg:group-odd:left-[calc(130%)] lg:top-[8px] lg:group-even:right-[calc(130%)] lg:group-even:text-right">2020</p>
+                            <h2 className="font-semibold">{experience.title}</h2>
+                            <p className="font-medium">{experience.organization}</p>
+                            <p className="text-gray-500">{experience.location}</p>
+                            <p className="whitespace-pre-wrap ">{experience.description}</p>
+                            <p className="lg:absolute lg:w-[100%] lg:group-odd:left-[calc(130%)] lg:top-[8px] lg:group-even:right-[calc(130%)] lg:group-even:text-right">{experience.year}</p>
                         </div>
                     </div>)}
                 </div>
